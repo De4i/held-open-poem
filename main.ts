@@ -1,5 +1,12 @@
 // Ten Past Seven — a tiny deterministic poem writer.
 //
+// The scene is a morning ritual: an injection that may only be
+// given after the carer asks and the woman says yes, every day,
+// at ten past seven. The asking is the poem's subject, so the
+// program treats the text the way the carer treats the ritual:
+// nothing about it is improvised, and it is delivered exactly
+// as held, every single run.
+//
 // The poem is held below as a single constant string. Nothing is
 // read from the clock, the network, or any file to decide it, so
 // every run writes exactly the same bytes.
