@@ -1,11 +1,11 @@
-// Ten Past Seven — a tiny deterministic poem writer.
+// The Ramp — a tiny deterministic poem writer.
 //
-// The scene is a morning ritual: an injection that may only be
-// given after the carer asks and the woman says yes, every day,
-// at ten past seven. The asking is the poem's subject, so the
-// program treats the text the way the carer treats the ritual:
-// nothing about it is improvised, and it is delivered exactly
-// as held, every single run.
+// The scene: a ramp built for a man who never asked for one.
+// Giving without being asked is its own kind of taking, so he
+// takes his power back the only way left to him — by judging
+// the gift and asking for it gentler. The program treats the
+// text the way the builder treated the work: nothing about it
+// is improvised, and it is delivered exactly as held, every run.
 //
 // The poem is held below as a single constant string. Nothing is
 // read from the clock, the network, or any file to decide it, so
@@ -22,21 +22,22 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 // The poem, held as one constant so the output is deterministic.
-const POEM = `Ten Past Seven
+const POEM = `The Ramp
 
-May I? I ask.
-Yes, she says,
-lifting her nightdress hem herself
-so far and no further.
+He never asked.
+I built it, Saturdays,
+planks from the yard,
+saw put away before he woke.
 
-The needle is the small thing.
-The yes is not.
+He stood at the top a long while.
 
-Some mornings I bring it ready
-and she says it anyway -
-yes -
-as if it were hers to give,
-not mine to take.
+So it is this, he said,
+and came down,
+and went up,
+put his hand on the rail,
+and asked at last:
+make it gentler.
+I like the hill.
 `;
 
 // Resolve the output directory: the environment override wins when
