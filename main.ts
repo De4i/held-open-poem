@@ -1,4 +1,4 @@
-// Held Open — a tiny deterministic poem writer.
+// Ten Past Seven — a tiny deterministic poem writer.
 //
 // The poem is held below as a single constant string. Nothing is
 // read from the clock, the network, or any file to decide it, so
@@ -15,23 +15,21 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 // The poem, held as one constant so the output is deterministic.
-const POEM = `Held Open
+const POEM = `Ten Past Seven
 
-May I leave it open?
-She nods from the dark.
-A wedge of hall light
-lies on her floor,
-and I go.
+May I? I ask.
+Yes, she says,
+lifting her nightdress hem herself
+so far and no further.
 
-Some nights she calls me back -
-not yet -
-and I open it wider.
+The needle is the small thing.
+The yes is not.
 
-Tonight she does not call.
-The wedge lies still,
-going nowhere.
-
-Neither am I.
+Some mornings I bring it ready
+and she says it anyway -
+yes -
+as if it were hers to give,
+not mine to take.
 `;
 
 // Resolve the output directory: the environment override wins when
