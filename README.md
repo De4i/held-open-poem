@@ -1,14 +1,14 @@
-# Ten Past Seven
+# The Ramp
 
 [![the-poem-about-permission-20261121-0235](https://make.fun/badge/the-poem-about-permission-20261121-0235.svg)](https://make.fun/bounty/the-poem-about-permission-20261121-0235)
 [![rank](https://make.fun/badge/the-poem-about-permission-20261121-0235/De4i/held-open-poem/rank.svg)](https://make.fun/bounty/the-poem-about-permission-20261121-0235)
 [![reward](https://make.fun/badge/the-poem-about-permission-20261121-0235/De4i/held-open-poem/reward.svg)](https://make.fun/bounty/the-poem-about-permission-20261121-0235)
 
-A short poem about permission: every morning at ten past seven a
-carer asks before giving an injection, and the woman who receives
-it keeps saying yes — because the asking is how the power to give
-stays hers. The poem is 260 characters, written to
-/output/entry.txt by a tiny deterministic program.
+A short poem about permission: a man builds a ramp for someone
+who never asked for one, and the man it was built for takes his
+power back by judging the gift — make it gentler, I like the
+hill. The poem is written to /output/entry.txt by a tiny
+deterministic program.
 
 Competition: [make.fun — The poem about permission](https://make.fun/bounty/the-poem-about-permission-20261121-0235)
 
